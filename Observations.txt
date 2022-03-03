@@ -1,0 +1,25 @@
+o	Problem Statement:
+	1.	The target variable has 2 types of cancer.
+	2.	Identifying whether has ‘Malignant’ (type 0) or ‘Benign’ (type1) disease.
+	3.	Analysing the most occurring disease type (0 or 1).
+
+
+o	Observation:
+	1.	There is no missing or null values in the dataset.
+	2.	Only 3 features out of 30 are showing the highly negative correlation for target variable.
+	3.	Target (1) i.e. ‘Benign’ disease has the highest occurrence compared to Target (0) i.e. ‘Malignant’.
+	4.	Post Model training:
+		a.	Precision Score=0.9466
+		b.	Recall Score=1.0
+		c.	f_beta Score (beta=2.0)= 0.9888
+		d.	Accuracy Score=0.9649
+
+
+o	Conclusion:
+		The model is performing well in the test data
+
+
+.
+	Features:
+	- Logistic Regression Based Project
+	- Exploratory Data Analysis with observations for better understanding.
